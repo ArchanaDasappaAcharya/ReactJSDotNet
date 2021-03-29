@@ -17,7 +17,7 @@ namespace React.Sample.Mvc4
 		{
 			bundles.Add(new BabelBundle("~/bundles/main").Include(
 				// Add your JSX files here
-				//"~/Content/Sample.tsx"
+				"~/Content/Sample.tsx"
 			));
 
 			// Force minification/combination even in debug mode
